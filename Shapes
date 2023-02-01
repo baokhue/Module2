@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ShowTypes {
+public class DisplayShapes {
     static int choiceNumber;
 
     public static void main(String[] args) {
@@ -14,9 +14,9 @@ public class ShowTypes {
             choiceNumber = sc.nextInt();
             switch (choiceNumber) {
                 case 1: {
-                    System.out.println("Nhập chiều dài:");
+                    System.out.println("Input length:");
                     int length = sc.nextInt();
-                    System.out.println("Nhập chiều cao:");
+                    System.out.println("Input height:");
                     int height = sc.nextInt();
                     for (int i = 1; i <= height; i++) {
                         for (int j = 1; j <= length; j++) {
@@ -28,7 +28,7 @@ public class ShowTypes {
                 }
                 break;
                 case 2: {
-                    System.out.println("Nhập chiều cao:");
+                    System.out.println("Input height:");
                     int height = sc.nextInt();
                     for (int i = 1; i <= height; i++) {
                         for (int j = 1; j <= i; j++) {
@@ -40,7 +40,7 @@ public class ShowTypes {
                 break;
 
                 case 3: {
-                    System.out.println("Nhập chiều cao:");
+                    System.out.println("Input height:");
                     int height = sc.nextInt();
                     for (int i = height; i >= 1; i--) {
                         for (int j = 1; j <= i; j++) {
